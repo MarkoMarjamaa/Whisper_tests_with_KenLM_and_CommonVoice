@@ -1,6 +1,10 @@
 # Whisper_tests_with_KenLM_and_CommonVoice
 Running WER/CER test with Finnish Common Voice and Whisper with KenLM
 
+Based on this 
+WHISPER-LM: IMPROVING ASR MODELS WITH LANGUAGE MODELS FOR LOW-RESOURCE LANGUAGES
+https://arxiv.org/pdf/2503.23542
+
 These scripts were tested with AMD Ryzen 395+
 
 # Install packages 
