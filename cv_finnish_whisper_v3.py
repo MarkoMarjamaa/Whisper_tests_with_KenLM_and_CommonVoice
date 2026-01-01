@@ -151,6 +151,8 @@ def evaluate_dataset(key: str, max_samples: int | None = None):
             predicted_ids = model.generate(
                 input_features,
                 max_new_tokens=225,
+                language=cfg['locale'],
+                task="transcribe"
             )
 
         pred = processor.batch_decode(predicted_ids, skip_special_tokens=True)[0]
